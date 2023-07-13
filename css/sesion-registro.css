@@ -1,0 +1,137 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+body
+{
+    background: white;
+    font-family: arial;
+}
+
+.berlin
+{
+    font-family: Berlin Sans FB;
+}
+
+.naranja
+{
+    color: #ef4822;
+}
+
+.blanco
+{
+    color: white;
+}
+
+.azul
+{
+    color: #034350;
+}
+
+.amarillo
+{
+    color: #FFCA33;
+}
+
+
+.fondo-naranja
+{
+    background-color: #ef4822;
+}
+
+.fondo-azul
+{
+    background-color: #034350;
+}
+
+.fondo-amarillo
+{
+    background-color: #FFCA33;
+}
+
+.borde-naranja
+{
+    border: 2.5px solid #ef4822;
+}
+
+.borde-azul
+{
+    border: 2.5px solid #034350;
+}
+
+.borde-amarillo
+{
+    border: 2.5px solid #FFCA33;
+}
+
+body 
+{
+    background: white; font-family: Berlin Sans FB, arial;
+}
+
+main 
+{
+    background-color: #ef4822; 
+    border-radius: 20px; 
+    align-content: center;
+}
+
+.logo 
+{
+    background: url(../img/logo-blanco.png) no-repeat; 
+    height: 150px; 
+    background-size: contain; 
+    background-position: center;
+}
+
+.foto-usuario 
+{
+    background: url(../img/silueta.png) no-repeat; 
+    height: 120px; 
+    background-size: contain; 
+    background-position: center; 
+}
+
+.usuario, .password 
+{
+    background: white; 
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+.usuario input, .password input 
+{
+    border: none; 
+    margin: 15px; 
+    padding: 5px 0px;
+}
+
+.boton-a 
+{
+    background: #034350; 
+    color: white; 
+    border-radius: 10px;
+}
+
+label 
+{
+    display: block
+}
+
+a.login-link 
+{
+    color: white;
+}
+
+a.login-link:hover, a.login-link:active 
+{
+    color: #034350;
+}
+
+a:hover, a:active 
+{
+    color: #ef4822;
+}

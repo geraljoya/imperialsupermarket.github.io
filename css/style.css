@@ -1,0 +1,240 @@
+*
+{
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+body
+{
+    background: white;
+    font-family: arial;
+}
+
+.berlin
+{
+    font-family: Berlin Sans FB;
+}
+
+.naranja
+{
+    color: #ef4822;
+}
+
+.blanco
+{
+    color: white;
+}
+
+.azul
+{
+    color: #034350;
+}
+
+.amarillo
+{
+    color: #FFCA33;
+}
+
+
+.fondo-naranja
+{
+    background-color: #ef4822;
+}
+
+.fondo-azul
+{
+    background-color: #034350;
+}
+
+.fondo-amarillo
+{
+    background-color: #FFCA33;
+}
+
+.borde-naranja
+{
+    border: 2.5px solid #ef4822;
+}
+
+.borde-azul
+{
+    border: 2.5px solid #034350;
+}
+
+.borde-amarillo
+{
+    border: 2.5px solid #FFCA33;
+}
+
+/*---  ESTILOS HEADER ---*/
+
+header
+{
+    background-image: url(../img/foto_header.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: arial narrow;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+
+.ingreso
+{
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 270px;
+    padding: 30px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a.login
+{
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    margin: 0px 5px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a.login:hover, a.login:active
+{
+    border-bottom: 3px solid #cf492b;
+}
+
+
+.navbar-nav li
+{
+     font-size: 18px;
+}
+
+.navbar-nav li a
+{
+    display: inline-block;
+    color: white;
+    border-bottom: 3px solid white;
+    margin: 10px 25px;
+}
+
+.navbar-nav li a:hover , .navbar-nav li a:active
+{
+    color: #cf492b;
+    border-bottom: 3px solid #cf492b;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 5px;
+}
+
+
+/*---*/
+
+#barra_amarilla
+{
+    background: url(../img/etiqueta_amarilla.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 31px;
+
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+p
+{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.white
+{
+    color: white;
+}
+
+
+
+/*---  ESTILOS HOME ---*/
+
+h2
+{
+    color: rgb(239,72,34,.9);
+    font-family: arial black;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+
+#spot, video
+{
+    width: 100%;
+    display: block;
+}
+
+
+#supermercado
+{
+    background-color: #cf492b;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#supermercado p
+{
+    width: 80%;;
+    margin-top: 40px;
+}
+
+
+
+/*---  ESTILOS FOOTER ---*/
+
+
+footer
+{
+    clear: both;
+    background: url(../img/fondo_footer.jpg);
+    border-top: 8px solid #cf492b;
+    border-bottom: 8px solid #cf492b;
+}
+
+h3
+{
+    font-size: 20px;
+}
+
+.redes
+{
+    text-align: center;
+}
+
+.redes a img
+{
+    margin: 0px 10px;
+}
+
+footer address
+{
+    background-color: #157087;
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+p.footer
+{
+    line-height: none;
+}

@@ -1,0 +1,23 @@
+<?php
+
+require("conexion.php");
+
+$arreglo = $_POST["arreglo"];
+
+$suma_total = 0;
+echo "Quieres los siguientes arreglos: <br><br>";
+echo "<table border='1'>";
+echo "<tr><th>Arreglo</th><th>Precio</th></tr>";
+foreach($arreglo as $valor) {
+	$consulta = mysqli_query($conexion, "SELECT * FROM productos WHERE id_producto = $valor");
+	while ($dato = mysqli_fetch_array($consulta, MYSQLI_ASSOC)) {
+		echo "<tr>";
+		echo "<td>" . $dato["arreglo"] . "</td><th align='right'>$" . $dato["precio"] . "</th>";
+		echo "</tr>";
+		$suma_total = $suma_total + $dato["precio"];
+	}
+}
+echo "<tr><td>La sumatoria de tus arreglos es:</td><th align='right'>$" . $suma_total . "</th></tr>";
+echo "</table>";
+
+?>
